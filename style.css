@@ -1,0 +1,383 @@
+/*start*/
+/*start*/
+/*start*/
+/*start*/
+
+html {
+  font-size: 62.5%;
+  font-size: 1.5rem;
+}
+
+/*body bg*/
+/*body bg*/
+/*body bg*/
+/*body bg*/
+
+.bg {
+  background-image: url(img/pexels-eberhard-grossgasteiger-691668.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 60rem;
+  min-width: 20rem;
+  margin: 0%;
+}
+.bgtext {
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+}
+
+/*main page heading*/
+/*main page heading*/
+/*main page heading*/
+/*main page heading*/
+/*main page heading*/
+
+.center {
+  text-align: center;
+  text-shadow: 10pt 10pt 10pt rgb(190, 217, 240);
+  color: rgb(255, 255, 255);
+  text-decoration: wavy;
+}
+
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+
+/*navbar/*
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+/*navigation bar*/
+
+/*Educational Qualifications*/
+/*Educational Qualifications*/
+/*Educational Qualifications*/
+/*Educational Qualifications*/
+
+/*Educational Qualifications*/
+.EQ {
+  text-align: center;
+  text-shadow: 10px 10px 10px rgb(2, 162, 255);
+  color: rgb(255, 255, 255);
+}
+/*result*/
+.EQUL {
+  columns: auto;
+  color: rgb(0, 255, 255);
+}
+/*background*/
+.wbody {
+  background-image: url(img/dog-647528_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  font-size: 20px;
+}
+.wlayer {
+  background: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+}
+/*future*/
+.whead {
+  color: azure;
+  text-shadow: 10px 10px 10px rgb(2, 162, 255);
+  text-align: center;
+}
+.wtwo {
+  margin-left: 1rem;
+  color: rgb(111, 0, 255);
+}
+
+.wthree {
+  color: rgb(0, 255, 255);
+  font-size: 1rem;
+}
+
+.wfour {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 10px 10px rgb(2, 162, 255);
+  text-align: center;
+  text-decoration-color: whitesmoke;
+}
+
+.wfive {
+  margin-left: 1rem;
+  color: rgb(0, 255, 255);
+}
+
+/*picture*/
+/*picture*/
+/*picture*/
+/*picture*/
+/*picture*/
+/*picture*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create 3 equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: auto;
+}
+
+.column img {
+  margin-top: 0.8rem;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a 1 column-layout instead of 3 columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.body {
+  background: linear-gradient(45deg, red, blue) fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  width: auto;
+  height: 100%;
+}
+
+/*contact form*/
+/*contact form*/
+/*contact form*/
+/*contact form*/
+/*contact form*/
+/*contact form*/
+
+/* Form */
+
+.contact{
+  text-align: center;
+  color: slateblue;
+  margin-bottom: 5rem;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4c82af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: auto;
+  position: relative;
+  bottom: 0%;
+  padding: 1rem;
+  margin-top: 20%;
+  font-size: large;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=text], input[type=email] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+
+/*gallery*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  margin: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/*submit*/
+/*submit*/
+/*submit*/
+/*submit*/
+.heading {
+  text-align: center;
+  color: rgb(247, 4, 4);
+}
