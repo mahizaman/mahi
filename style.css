@@ -20,9 +20,10 @@ html {
   background-size: cover;
   position: relative;
   width: 100%;
-  min-height: 60rem;
+  min-height: 30rem;
   min-width: 20rem;
   margin: 0%;
+
 }
 .bgtext {
   text-align: center;
@@ -174,133 +175,21 @@ html {
 
 /* Form */
 
-.contact{
-  text-align: center;
-  color: slateblue;
-  margin-bottom: 5rem;
-}
-
-input[type=text], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-}
-input[type=email], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-/* Style the submit button */
-input[type=submit] {
-  background-color: #4c82af;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: auto;
-  width: 100%;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-/* Style the container */
-.container {
+/*Contact sectiom*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+.from-css {
+  background-image: url(/undraw_contact_us_15o2.svg);
+  background-color: rgba(1, 44, 38, 0.678);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 50%;
-  margin: auto;
-  position: relative;
-  bottom: 0%;
-  padding: 1rem;
-  margin-top: 20%;
-  font-size: large;
-}
-
-/* Floating column for labels: 25% width */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-/* Floating column for inputs: 75% width */
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=text], input[type=email] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 600px) {
-  .container{
-    width: 80%;
-    margin-top: 10%;
-  }
-}
-
-/*gallery*/
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0%;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  margin: auto;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px; 
+  -o-border-radius: 5px;
+  margin-top:  20px;
+} 
 
 
 /*submit*/
@@ -310,4 +199,5 @@ input[type=submit] {
 .heading {
   text-align: center;
   color: rgb(247, 4, 4);
+  margin: 50px;
 }

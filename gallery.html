@@ -2,54 +2,101 @@
 <html>
 <!-- heading -->
 
-<head>
-  <script src="/resize.js"></script>
-  <title>personal website</title>
-  <meta name="description" content="Mahi Zaman creating his first website" />
-  <meta charset="" utf-8">
-  <meta name="robots" content="index,follow" />
-  <link rel=" shortcut icon" href="/img/favicon.jpg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<link rel="stylesheet" href="/style.css">
+    <script
+      src="https://kit.fontawesome.com/3e65bf7355.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <title>contact form</title>
+  </head>
+  <body class="body">
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        sticky-top
+        bg-transparent
+        fw-bold
+        font-monospace
+      "
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/writings.html">EDUCATIONAL QUALIFICATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                SOCIAL
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.facebook.com/mahizaman"
+                    ><i class="fab fa-facebook fa-2x" style="color: #3b5999"></i
+                  ></a>
+                </li>
 
-<body class="bg">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/index.html">HOME</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/writings.html">EDUCATIONAL QUALIFICATIONS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Social
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="https://www.facebook.com/mahizaman" target="_blank"><img src="/img/iconmonstr-facebook-4.svg"></a></li>
-            <li><a class="dropdown-item" href="https://www.instagram.com/mahizaman9/"
-              target="_blank"> <img src="/img/iconmonstr-instagram-14.svg"></a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.instagram.com/mahizaman9/"
+                    ><i
+                      class="fab fa-instagram-square fa-2x"
+                      style="color: #e4405f"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        </div>
+      </div>
+    </nav>
 
   <div class="row">
 
@@ -71,6 +118,12 @@
     </div>
   </div>
 </body>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+crossorigin="anonymous"
+></script>
 
 
 </html>

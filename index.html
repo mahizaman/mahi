@@ -2,101 +2,154 @@
 <html>
 <!-- heading -->
 
-<head>
-    <script src="/resize.js"></script>
-    <title>personal website</title>
-    <meta name="description" content="Mahi Zaman creating his first website" />
-    <meta charset="" utf-8">
-    <meta name="robots" content="index,follow" />
-    <link rel=" shortcut icon" href="/img/favicon.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<link rel="stylesheet" href="/style.css">
+    <script
+      src="https://kit.fontawesome.com/3e65bf7355.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <title>contact form</title>
+  </head>
+  <body class="bg">
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        sticky-top
+        bg-transparent
+        fw-bold
+        font-monospace
+      "
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/writings.html">EDUCATIONAL QUALIFICATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="/gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                SOCIAL
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.facebook.com/mahizaman"
+                    ><i class="fab fa-facebook fa-2x" style="color: #3b5999"></i
+                  ></a>
+                </li>
 
-<body class="bg">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.instagram.com/mahizaman9/"
+                    ><i
+                      class="fab fa-instagram-square fa-2x"
+                      style="color: #e4405f"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <div class="bgtext mb-5">
+      <h1 class="center">I'M MAHI ZAMAN</h1>
+      <h2 class="center">WELCOME TO MY WEBSITE</h2>
+    </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html">HOME</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/writings.html">EDUCATIONAL QUALIFICATIONS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Social
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="https://www.facebook.com/mahizaman" target="_blank"><img src="/img/iconmonstr-facebook-4.svg"></a></li>
-              <li><a class="dropdown-item" href="https://www.instagram.com/mahizaman9/"
-                target="_blank"> <img src="/img/iconmonstr-instagram-14.svg"></a></li>
-            </ul>
-          </li>
-        </ul>
+    <form action="/contact.html" netlify>
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-8 col-lg-6 text-light from-css">
+          <form
+            class="bg-transparent p-4 rounded"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="col-sm-12">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control bg-transparent shadow-lg text-light"
+                id="name"
+              />
+            </div>
+            <div class="col-sm-12">
+              <label for="Email1" class="form-label">Email address</label>
+              <input
+                name="email"
+                type="email"
+                class="form-control bg-transparent shadow-lg text-light"
+                id="Email1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-sm-12">
+              <label for="text" class="form-label">Your massage</label>
+              <textarea
+                id="text"
+                class="form-control bg-transparent shadow-lg text-light"
+              >
+              </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
-  </nav>
+  </form>
 
-  <div class="bgtext">
-
-    <h1 class="center">I'M MAHI ZAMAN</h1>
-    <H2 class="center">WELCOME TO MY WEBSITE</H2>
-
-  </div>
-
-
-
-
-  <div class="container">
-
-    <h1 class="contact">Contact Me</h1>
-            <form action="/contact.html" netlify>
-              <div class="row">
-                <div class="col-25">
-                  <label for="name">Name</label>
-                </div>
-                <div class="col-75">
-                  <input required type="text" id="name" name="name" minlength="2" placeholder="Your name..">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-25">
-                  <label for="email">Email</label>
-                </div>
-                <div class="col-75">
-                  <input required type="email" id="email" name="email" minlength="3" placeholder="Your email..">
-                </div>
-              </div>
-    
-              <div class="row">
-                <div class="col-25">
-                  <label for="message">Message</label>
-                </div>
-                <div class="col-75">
-                  <textarea id="text" name="message" placeholder="Your Message" style="height:200px"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <input required type="submit" value="Submit">
-              </div>
-            </form>
-          </div>
-  <script src="/nav.js"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
